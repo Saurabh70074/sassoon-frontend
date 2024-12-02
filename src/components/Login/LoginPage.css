@@ -1,0 +1,80 @@
+/* Styles for the login page */
+.login-page {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.login-header {
+  background-color: none;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.login-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.login-main h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-btn {
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}

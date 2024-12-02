@@ -1,0 +1,24 @@
+.banner {
+  background-image: url('../../images/Banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+
+
+  
+  .banner-title {
+    font-family: "BlissPro ExtraLight", "Gill Sans", Calibri, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 66px;
+}
+  }
+  

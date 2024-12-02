@@ -1,0 +1,90 @@
+.booking-list {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .summary-tabs {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .tab {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .filters {
+    margin-bottom: 10px;
+  }
+  
+  .filter-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .filter-btn.active {
+    background-color: #f0f0f0;
+  }
+  
+  .export-section {
+    margin-bottom: 10px;
+  }
+  
+  .export-btn {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    border: 1px solid lightgray;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .booking-table th {
+    background-color: #f8f8f8;
+  }
+  
+  .booking-table select {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-top: 20px;
+  }
+  

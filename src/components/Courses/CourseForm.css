@@ -1,0 +1,93 @@
+/* General form styling */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-grid,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px 30px; /* Vertical and Horizontal gaps */
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.close-btn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Label styling */
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Input and Select styling */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Placeholder option styling */
+select option[value=""] {
+  color: #999;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+button[type="button"] {
+  background-color: #28a745;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #218838;
+}
+
+/* Action buttons */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}

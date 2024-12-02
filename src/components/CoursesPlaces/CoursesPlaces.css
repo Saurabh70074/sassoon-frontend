@@ -1,0 +1,125 @@
+.courses-places {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .courses-table th,
+  .courses-table td {
+    border: 1px solid lightgray;
+    padding: 8px 10px;
+    text-align: left;
+  }
+  
+  .courses-table th {
+    background-color: #f9f9f9;
+  }
+ 
+  
+  .add-date-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-date-btn:hover {
+    background-color: #218838;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+  .modal-content {
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .modal-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content input,
+  .modal-content textarea,
+  .modal-content button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content button {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-course-btn {
+    background: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .edit-link-btn {
+    background: none; /* Button background remove */
+    border: none; /* Button border remove */
+    color: grey !important; /* Link color */
+    text-decoration: underline; /* Underline for link appearance */
+    cursor: pointer; /* Pointer cursor to mimic a link */
+    font-size: inherit; /* Match font size to surrounding text */
+    padding: 0; /* Remove padding for cleaner look */
+  }
+  
+  .edit-link-btn:hover {
+    color: black !important; /* Optional hover effect */
+    text-decoration: none; /* Optional underline removal on hover */
+  }
+  
+  
+  
