@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
 import './Header.css'; // Style this file for header-specific styles
-import logo from '../../images/sassoon-academy-logo.png';
 
 const Header = () => {
   const navigate = useNavigate();
@@ -15,11 +14,6 @@ const Header = () => {
   };
   return (
     <header className="header">
-   <img 
-        src={logo}
-        alt="logo" 
-        className="logo-image" 
-      />
       <button className="logout" onClick={handleLogout}>
         Logout
       </button>
