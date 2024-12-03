@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sassoon-frontend/static/css/main.8ff0899d.css",
+    "main.js": "/sassoon-frontend/static/js/main.728c54d2.js",
+    "static/media/Banner.png": "/sassoon-frontend/static/media/Banner.e59d8ef884720d179957.png",
+    "static/media/Courses.png": "/sassoon-frontend/static/media/Courses.0a116c3ab2db3eedb79d.png",
+    "static/media/Bookinglist.png": "/sassoon-frontend/static/media/Bookinglist.0b441d8b1ef70f801d20.png",
+    "index.html": "/sassoon-frontend/index.html",
+    "main.8ff0899d.css.map": "/sassoon-frontend/static/css/main.8ff0899d.css.map",
+    "main.728c54d2.js.map": "/sassoon-frontend/static/js/main.728c54d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ff0899d.css",
+    "static/js/main.728c54d2.js"
+  ]
+}
